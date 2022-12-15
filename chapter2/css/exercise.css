@@ -1,0 +1,27 @@
+.aueb-logo {
+    width: 1500px;
+    height: auto;
+    align-self: center;
+}
+
+.cf-title{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    text-align: center;
+    color:brown;
+}
+
+.cf-text{
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+    width: auto;
+    text-shadow: 1px 1px 10px rgb(15, 6, 1);
+    font-family: Quicksand;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}

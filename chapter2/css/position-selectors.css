@@ -1,0 +1,23 @@
+/* επιλογή με βάση τη θέση */
+/* επέλεξε τα li άμεσους απόγονους του ul */
+
+ul >li {
+    color: blue;
+}
+
+/* επέλεξε τα ul που είναι strong */
+/* επέλεξε όλα τα strong που είναι μέσα στο ul */
+
+ul strong {
+    background-color: gray;
+}
+
+ul em {
+    background-color: gainsboro;
+}
+
+/* επέλεξε το p που έιναι μετά το h1 */
+/* το h1 + p + p  θα επιλέξει το δεύτερο p */
+h1 + p {
+    background-color: greenyellow;
+}

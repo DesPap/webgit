@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+p, li {
+    color: white;
+    background-color: brown;
+}
+
+p {
+    color: red;
+    background-color: black;
+}
+
+li {
+    list-style-type:square;
+}

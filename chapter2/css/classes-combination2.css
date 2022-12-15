@@ -1,0 +1,16 @@
+/* forground light είναι μια γενική κλάσση που δίνει το χρώμα */
+.fg-light {
+    color: white;
+}
+
+.aueb-title-bg {
+    background-color: green;
+}
+
+.cf-title-bg {
+    background-color: brown;
+}
+
+.aueb-text-bg {
+    background-color: red;
+}

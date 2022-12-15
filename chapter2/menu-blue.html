@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Blue</title>
+    <link rel="stylesheet" href="./css/menu-blue.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="middle-box">
+            <div class="inner-box">
+                <form>
+                    <div class="gap-bottom">
+                        <span class="login-text"><strong>Login</strong></span>
+                    </div>
+                    <div class="gap-bottom">
+                        <!-- name είναι το όνομα που βλέπει ο σέρβερ (υπάρχει στο url) 
+                            autofocus πάει εκεί ο κέρσορας όταν φορτώνει η σελίδα -->
+                        <input id="email" class="form-input email" type="email" name="username" 
+                        value="" placeholder="E-mail" required autofocus>
+
+                    </div>
+                    <div class="gap-bottom">
+                        <input class="form-btn" type="submit" value="Sign In">
+                    </div>
+                    <div class="gap-bottom">
+                        <!-- αν υπήρχε σύνδεση με server, κλικάρωντας, θα έκανε κάτι ο σέρβερ -->
+                        <a class="reset-link" href="/reset">Lost your password?</a>
+                    </div>
+                </form>
+            </div>
+            <div class="gap-bottom gap-top">
+                <span class="text-light">Don't have an account?</span>
+                <a class="account-link" href="/register">Sing up here!</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

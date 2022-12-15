@@ -1,0 +1,9 @@
+/* με font-size μεγαλυτερο από το width βγάζει το font έχω από το border */
+/* overflow βάζει το font μέσα στο border και ανάλογα αποκρύπτει hidden, βάζει μπάρα scroll, auto κλπ */
+
+p {
+    width: 50px;
+    border: 1px solid black;
+    font-size: 200%;
+    overflow: auto;
+}

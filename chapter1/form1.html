@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+
+    <form>
+        <!-- label is a string -->
+        <div>
+            <label for="username">Username</label>
+            <!-- name είναι αυτό που ο σέρβερ περιμένει σαν παράμετρο (?) -->
+            <input type="text" id="username" name="username" placeholder="Enter username">
+        </div><br>
+        
+
+        <!-- το email κάνει και έλεγχο αν είναι η δομή mail -->
+        <div>
+            <!-- div is a container -->
+            <label for="email">E-mail</label>
+            <!-- name="email" το κάνει requided-->
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+    
+</body>
+</html>

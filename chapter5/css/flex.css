@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 1000px;
+    border: 1px solid black;
+    /* flex-wrap: wrap; */
+}
+
+div[class^="box"] {
+    width: 50px;
+    height: 100px;
+    margin: 0 20px;
+    color: white;
+    background-color: rgb(57, 145, 115);
+    font-size: 3rem;
+    /* flex: 1; */
+}
+
+.box1, .box2,
+.box3, .box4 {
+    flex: 1;
+}
+
+.box5 {
+    flex: 10;
+}
+
+.box1 {
+    /*το box1 θα είναι 5ο*/
+    /* order: 5; */
+    /* πάει πάνω στη σελίδα*/
+    /* align-self: flex-start;  */
+    flex: 1;
+}
+
+/* .box5 { */
+    /*πάει στην 1η θέση*/
+    /* order: -1; */
+    /* πάει κάτω στη σελίδα*/
+    /* align-self: flex-end; */
+/* } */

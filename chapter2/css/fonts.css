@@ -1,0 +1,61 @@
+/* font */
+/* google fonts για να δούμε τις γραμματοσειρές-> select κάποια γραμματοσειρά και παίρνουμε το link  */ */
+/* το preconnect κάνει σύνδεση για να παρει τη γραμματοσειρά, πριν φορτώσει τη σελίδα */
+/* crossorigin είναι απαίτηση κάποιων browser για να κάνει τη σύνδεση */
+/* link μέσα στο head e.g. <linκ rel = "preconnect" href="https://fonts.gstatic.com" crossorigin ...... */
+/* @import μέσα στο css / καλύτερα όχι μέσα στο css*/
+
+/* Color */
+/* Colors   chrome->τελίτσες->περισσοτερα εργαλεία ή shift+ctrl+i->εργαλεία για προγραμματιστές,  
+style, επιλέγουμε με τον selector (βελάκι πάνω δεξιά γωνία) και βλέπουμε τους κωδικούς */
+
+/* text */
+/* text-decoration: underline, none
+   text shadow: δεξιά, κάτω, blur, χρώμα e.g. 2px 2px 2px red
+   text-align: left, right, center, justify (κάνει δεξιά αριστερά στοίχιση)
+   text-indent: 10px;  (κάνει την εσοχή)
+   letter-spacing: 2px 
+   text-indent: 10px*/
+
+/* Border */
+/* border-width:
+   border-style:
+   border-color:
+   ή για όλα αυτά μαζί
+   border:width(1px) style(dashed/solid/dotted) color(green)*/
+
+.container {
+    width: 90%;
+}
+
+/* το oblique κάνει στον τίτλο τα γράμματα πλάγια */
+.cf-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: oblique;
+}
+
+/* το semi-condensed κάνει τα γράμματα πιο συμπυκνωμμένα */
+.cf-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: semi-condensed;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.courses-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #762124;
+    text-shadow: 2px 2px 2px red;
+    text-decoration: underline;
+}
+
+.courses-text {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: rgb(0, 0, 255, 0.3);
+    text-align: justify;
+    text-indent: 10px;
+    border: 2px solid green
+}

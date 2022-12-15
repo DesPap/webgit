@@ -1,0 +1,17 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transform-origin: right bottom;
+    transition: transform 1s ease-in;
+}
+
+.box1:hover {
+    /* να γίνει τριπλάσιο */
+    /* transform: scale(3); */
+    /* transform: rotate(180deg); */
+    /* transform: translate(0, 400px); */
+    /* στρέβλωση skew, στον άξονα των Χ */
+    /* transform: skewX(-90deg); */
+    transform: scale(3) rotate(180deg) translate(0, 400px) skewX(-90deg);
+}

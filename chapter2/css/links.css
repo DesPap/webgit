@@ -1,0 +1,26 @@
+/* LoVe Fears HAte */
+/* σειρά που πρέπει να μπαίνουν τα links */
+/* Link Visited Focus Hover Active */
+
+/* επέλεξε τα a που είναι state link */
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:focus {
+    outline: none;
+    background-color: yellow;
+}a:hover {
+    background-color: gray;
+}
+
+a:active {
+    background-color: green;
+    color: white;
+}

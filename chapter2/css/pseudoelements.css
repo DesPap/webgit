@@ -1,0 +1,11 @@
+/* after & before εφαρμόζουμε σε content elements
+το input π.χ. δεν είναι content element */
+/* το content είναι για decoration */
+
+.lastname::after {
+    content: '\1F600';
+}
+
+.firstname::before {
+    content: '\1f604';
+}

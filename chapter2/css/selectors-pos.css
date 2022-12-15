@@ -1,0 +1,35 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+ul a:link {
+    color: black;
+}
+
+/* φτιάχνει στα li γραμμές borders */
+ul > li {
+    border: 1px solid black;
+}
+
+/* child αναφέρεται στο παιδί, type αναφέρεται στο στοιχείο */
+/* κάνει κόκκινη την κουκίδα του πρώτου στοιχείο li */
+ul > li:first-of-type {
+    color: red;
+}
+
+/* επέλεξε όλα τα li που δεν είναι first child */
+ul > li:not(:first-child) {
+    list-style-type: square;
+}
+
+/* επέλεξε το αμέσως επόμενο p μετά το h1, Το + είναι το αμέσως μετά */
+h1 + p {
+    font-size: 22px;
+}
+
+/* επέλεξε τα h1 σε συνέχεια του img (~ tilt) */
+img ~ h1 {
+    font-size: 3rem;
+}
+

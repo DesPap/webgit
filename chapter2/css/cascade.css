@@ -1,0 +1,26 @@
+/* σειρά προτεραιότητας !important, inline, id, class, tab */
+
+/* 1 */
+/* το important έχει τη μεγαλύτερη προτεραιότητα. Δεν πρέπει γενικά να χρησιμοποιείται,
+παρά αν δεν έχουμε προσβαση σε έναν custom css κώδικα */
+p {
+    color: green!important;
+}
+
+/* 2 */
+/* Ο selector του id ξεκινά με # */
+#auebText {
+    color: yellow;
+}
+
+/* 3 */
+/* ο selector της class ξεκινά με τελεία */
+.aueb-text {
+    color: black;
+}
+
+/* 4 */
+p {
+    color: red;
+}
+

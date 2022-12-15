@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+/* επιλογή ενός media, που θα εφαρμοστεί ότι έχουμε ορίσει */
+/* αν ήταν μόνο το body, χωρίς το @media..., θα εφαρμόζονταν παντού και στο screen και print */
+@media print {
+    body {
+        background-color: grey;
+    }
+}

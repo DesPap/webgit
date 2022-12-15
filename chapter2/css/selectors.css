@@ -1,0 +1,33 @@
+/* με το * επιλέγουμε όλα τα ui elements */
+/* margin εξωτερικό περιθώριο */
+/* το css αναγνωρίζει αυτά που δίνουμε clockwise (αριστερά, πάνω, δεξιά, κάτω*/
+
+* {
+    margin: 10px 2px
+}
+
+.container {
+    background-color: gray;
+}
+
+/* όλα τα h2 από το container */
+/* first-of-type  το πρώτο στοιχείο μιάς ομάδας*/
+/* 24px = 1.5rem είναι το default */
+.container > h2:first-of-type {
+    font-size: 24px; 
+}
+
+.container > p:first-of-type {
+    color: red;
+}
+
+/* αντί για ul θα μπορούσαμε να βάλουμε .courses-list */
+/* το 400 είναι το κανονικό πάχος, το 100 η πιο λεπτή */
+ul > li:first-child {
+    font-weight: bold;
+}
+
+/* επιλέγει το 3o li element */
+ul > li:nth-child(3) {
+    color: green;
+}

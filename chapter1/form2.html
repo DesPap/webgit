@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Εισαγωγή Στοιχείων Εκπαιδευόμενου</title>
+</head>
+<body>
+
+    <!-- αν δεν είναι form δε λειτουργεί το submit -->
+    <form>
+
+    <!-- fieldset είναι container -->
+    <fieldset style="width: 450px;">
+        <legend>Firstname/Lastname</legend>
+        <div>
+            <label for="firstname">Firstname</label>
+            <!-- id συσχετίζει το for και το id -->
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+    </fieldset>
+
+    <div>
+        <!-- value είναι αυτό που αποθηκεύεται στη βάση -->
+        <input type="radio" name="gender" id="gender" value="Male" checked>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="gender" value="Female">
+        <label for="female">female</label>
+    </div>
+
+    <div>
+        <label for="level">Education Level</label>
+        <select name="level" id="level">
+            <option value="1">BSc</option>
+            <option value="2">MSc</option>
+            <option value="3">PhD</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+
+    <div>
+        <label for="submission-date">Submission Date</label>
+        <!-- required απαιτεί αυτό το πεδίο    maxlength δίνει το μέγιστο μήκος
+        regular expression (required pattern) για να κάνει έλεγχο ποιά νούμερα δίνονται-->
+        <input type="date" id="submission-date" placeholder="DD/MM/YY" maxlength="8" 
+        required pattern="^[0-2][0-9]|3[01\/0[1-9]|1[0-2]\/[0-9]{2}$">
+        <!-- ^αρχή του string, $ τέλος του string
+            dd = πρώτο στοιχείο από 0 έως 2, δεύτερο στοιχείο από 0 έως 9 
+            ή πρώτο στοιχείο 3, δεύτερο στοιχείο από 0 έως 1
+            \ για να αποδεσμεύσει το δεσμευμένο σύμβολο / 
+            {2} επανάλαβεfirdf το προηγούμενο στοιχείο δύο φορές-->
+    </div>
+
+</form>
+    
+</body>
+</html>
